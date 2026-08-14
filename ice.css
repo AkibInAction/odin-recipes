@@ -50,7 +50,17 @@ a:hover {
 
   padding: 1vw 2.5vw;
   border-radius: 0.5vw;
-
-  background-color: #ff4757;
+border: none;
+  background-color: #4b4748;
   color: white;
+cursor: pointer;
+transition: all 0.3s ease;
 }
+.browscar:hover{
+    transform: translateX(-2px);
+    transition: all 0.3s ease;
+    background-color: aliceblue;
+    color: #4b4748;
+}
+
+
