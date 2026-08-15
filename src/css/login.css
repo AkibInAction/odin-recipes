@@ -67,3 +67,25 @@ position: absolute;
 top: 0;
 left: 0;
 }
+.login-btn{
+  display: flex;
+  width: 90px;
+  height: 23px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  background-color: rgb(153, 149, 149);
+  transition: all 0.3s ease;
+
+
+}
+.login-btn:hover{
+  transform: translateX(-3px);
+  transition: all 0.3s ease;
+  background-color: aliceblue;
+  color: black;
+}
