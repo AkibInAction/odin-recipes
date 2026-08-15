@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #4b4748;
+}
 .nav-bar {
   padding: 15px 30px;
   background-color: rgb(27, 29, 29);
