@@ -17,9 +17,7 @@ body {
     position: relative;
   width: 100%;
   height: 100vh;
- 
- 
-}
+ }
 .logintemp {
   display: grid;
   justify-content: space-between;
@@ -42,7 +40,7 @@ position: absolute;
   left: 50%;
    transform: translate(-50%, -50%);
 z-index: 10;
-opacity: 0.6;
+opacity: 0.;
 
 }
 input {
@@ -53,8 +51,6 @@ input {
   border: 1px solid black;
   border-radius: 5px;
 
-  
- 
 }
 input:focus {
     outline: none;
@@ -73,19 +69,39 @@ left: 0;
   height: 23px;
   justify-content: center;
   align-items: center;
-  border-radius: 9px;
+  border-radius: 100px;
   border: none;
   outline: none;
   cursor: pointer;
   font-family: sans-serif;
   background-color: rgb(153, 149, 149);
   transition: all 0.3s ease;
-
-
-}
+  width: 40%;
+ }
 .login-btn:hover{
   transform: translateX(-3px);
   transition: all 0.3s ease;
   background-color: aliceblue;
   color: black;
 }
+.google-sign{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 88%;
+  display: flex;
+  left: 3%;
+  
+}
+@media (max-width: 430px) {
+  .google-sign img {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    bottom: 1px;
+
+
+  }
+}
+
+
