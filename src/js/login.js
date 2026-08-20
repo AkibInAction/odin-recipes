@@ -1,12 +1,20 @@
- let chips_price = 20;
- let haggu_bil = 0;
- for (let i = 20; i <= 60; i = i + 20)
-    {
-    chips_price = chips_price + 20;
-  
-   
-   
+import fs from 'fs';
 
 
- }
+import prompt from "prompt-sync"
+const input = prompt();
+let user_info ={
+    name:"",
+    email:""
 
+}
+function login(){
+    let interuser = input("Enter your name: ");
+    let interemail = input("Enter your email: ");
+    user_info.name = interuser;
+    user_info.email = interemail;
+    let convertdata = JSON.stringify(user_info);
+    fs.writeFileSync("user_info.json",convertdata);
+    const data = fs.readFileSync("user_info.json");
+}
+ login();
