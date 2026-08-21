@@ -207,6 +207,12 @@ importers:
 
   .:
     dependencies:
+      math:
+        specifier: ^0.0.3
+        version: 0.0.3
+      math.js:
+        specifier: ^1.1.46
+        version: 1.1.46
       pg:
         specifier: ^8.23.0
         version: 8.23.0
@@ -219,6 +225,13 @@ packages:
   ansi-regex@4.1.1:
     resolution: {integrity: sha512-ILlv4k/3f6vfQ4OoP2AGvirOktlQ98ZEL1k9FaQjxa3L1abBgbuTDAdPOpvbGncC0BTVQrl+OM8xZGK6tWXt7g==}
     engines: {node: '>=6'}
+
+  math.js@1.1.46:
+    resolution: {integrity: sha512-D4DS+oENshM6xI94mhzJFkH1D0jvSHyKjNuLbki2IdGM3RZ74WQDSw8KLIMy/76JFhl7BvY1/KkJc38kOvv/6Q==}
+
+  math@0.0.3:
+    resolution: {integrity: sha512-xyNJxsEwpYBabFmCgwg7TFRljf5oGgV2h1TqP0H9RnykScaSKgoVlBaEz+Gov8NOdxFagoTzRg1aEBfayi8qQQ==}
+    engines: {node: '> 0.0.0'}
 
   pg-cloudflare@1.4.0:
     resolution: {integrity: sha512-Vo7z/6rrQYxpNRylp4Tlob2elzbh+N/MOQbxFVWCxS7oEx6jF53GTJFxK2WWpKuBRkmiin4Mt+xofFDjx09R0A==}
@@ -288,6 +301,10 @@ packages:
 snapshots:
 
   ansi-regex@4.1.1: {}
+
+  math.js@1.1.46: {}
+
+  math@0.0.3: {}
 
   pg-cloudflare@1.4.0:
     optional: true

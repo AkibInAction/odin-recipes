@@ -18,6 +18,8 @@
   },
   "type": "module",
   "dependencies": {
+    "math": "^0.0.3",
+    "math.js": "^1.1.46",
     "pg": "^8.23.0",
     "prompt-sync": "^4.2.0"
   }
